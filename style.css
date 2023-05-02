@@ -1,0 +1,70 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 100%;
+  font-size: 1.5rem;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: peachpuff;
+}
+
+.title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.box-for-grid {
+  display: flex;
+  justify-content: center;
+}
+
+#grid-container {
+
+}
+
+.row {
+  display: flex;
+  background-color: peachpuff;
+}
+
+.cell {
+  display: flex;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: white;
+}
+
+.buttons-div {
+  margin: 20px 0px;
+  text-align: center;
+}
+
+#red, #green, #blue {
+  font-size: 20px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+
+#red {
+  background-color: red;
+}
+
+#green {
+  background-color: green;
+}
+
+#blue {
+  background-color: blue;
+}
+
+.grid-button {
+  font-size: 20px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  background-color: black;
+  color: whitesmoke;
+}
